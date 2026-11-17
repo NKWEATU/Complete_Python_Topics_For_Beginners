@@ -1,15 +1,9 @@
-# Created on : Nov 16, 2026, 9:42:21 AM
-# Author     : HP
+# Ask the user to enter the starting number
+start = int(input("Enter starting number: "))
 
+# Ask the user to enter the ending number
+end = int(input("Enter ending number: "))
 
-# This is a sample Python script.
-
-# Press Shift+F6 to execute it or replace it with your code.
-
-
-def print_hi(name):
-    print(f"Hi, {name}")
-
-
-if __name__ == "__main__":
-    print_hi("Netbeans")
+# Count numbers using for loop
+for number in range(start, end + 1):
+    print(number)
