@@ -8,7 +8,7 @@ while savings < 5000:
     savings = savings + 1000
 
     # Display the updated savings
-    print("Your savings are now:", savings)
+    print("Your savings is now:", savings)
 
 # Display a message when the target is reached
 print("Congratulations! You have reached your savings target.")

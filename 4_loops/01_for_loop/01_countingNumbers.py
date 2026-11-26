@@ -7,3 +7,5 @@ end = int(input("Enter ending number: "))
 # Count numbers using for loop
 for number in range(start, end + 1):
     print(number)
+    
+    
